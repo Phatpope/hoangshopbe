@@ -1,0 +1,122 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "size": {
+      "type": "json"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "original_price": {
+      "type": "decimal"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "color": {
+      "type": "string"
+    },
+    "new": {
+      "type": "boolean"
+    },
+    "gen": {
+      "type": "string"
+    },
+    "dacdiem": {
+      "type": "blocks"
+    },
+    "kichthuocmanhinh": {
+      "type": "string"
+    },
+    "dophangiai": {
+      "type": "string"
+    },
+    "tansoquet": {
+      "type": "string"
+    },
+    "congnghemanhinh": {
+      "type": "string"
+    },
+    "congnghecpu": {
+      "type": "string"
+    },
+    "sonhan": {
+      "type": "string"
+    },
+    "soluong": {
+      "type": "string"
+    },
+    "tocdocpu": {
+      "type": "string"
+    },
+    "tocdotoidacpu": {
+      "type": "string"
+    },
+    "bonhodem": {
+      "type": "string"
+    },
+    "dohoa": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "ramtoida": {
+      "type": "string"
+    },
+    "ocung": {
+      "type": "string"
+    },
+    "conggiaotiep": {
+      "type": "string"
+    },
+    "kichthuoc": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+postgres://applestore_user:8EeUoaivwwVZy4LqKU9SpZlGCSzPYjgp@dpg-ckls57bj89us738dhb3g-a.singapore-postgres.render.com/applestore
