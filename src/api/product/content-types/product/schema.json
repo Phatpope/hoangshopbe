@@ -117,6 +117,12 @@
     },
     "kichthuoc": {
       "type": "string"
+    },
+    "cameratruoc": {
+      "type": "string"
+    },
+    "camerasau": {
+      "type": "string"
     }
   }
 }

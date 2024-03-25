@@ -790,6 +790,8 @@ export interface ApiProductProduct extends Schema.CollectionType {
     ocung: Attribute.String;
     conggiaotiep: Attribute.String;
     kichthuoc: Attribute.String;
+    cameratruoc: Attribute.String;
+    camerasau: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
